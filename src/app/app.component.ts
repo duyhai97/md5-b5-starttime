@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'start-time';
+
+  isCountDown = ''
+
+  finish(){
+    this.isCountDown = 'Ket thuc'
+  }
+
 }
